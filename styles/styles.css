@@ -1,5 +1,12 @@
+:root {
+    --first-color: darkblue;
+    --second-color: #343434;
+    --text-align: center; /* These two seem very unnecessary, but */
+    --height: auto; /* I was told to replace repeated CSS property values, so ... */
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--first-color);
     padding: 10px;
 }
 
@@ -14,12 +21,12 @@ main {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--first-color);
 }
 
 main img {
     width: 150px;
-    height: auto;
+    height: var(--height);
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -35,17 +42,17 @@ aside {
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
-    color: #343434;
-    text-align: center;
+    color: var(--second-color);
+    text-align: var(--text-align);
 }
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 footer {
     margin-top: 100px;
-    border-top: 1px dotted #343434;
-    text-align: center;
+    border-top: 1px dotted var(--second-color);
+    text-align: var(--text-align);
 }
