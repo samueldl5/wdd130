@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #D17E33ff;
-    --secondary-color: #F4EFE1ff;
-    --accent1-color: #5B3D1Eff;
-    --accent2-color: #1BA595ff;
+    --primary-color: #D17E33;
+    --secondary-color: #F4EFE1;
+    --accent1-color: #5B3D1E;
+    --accent2-color: #198d7f;
     --heading-font: "Cambria", Georgia, "Times New Roman";
     --body-font: "Segoe UI", Tahoma, Arial;
 }
@@ -26,11 +26,14 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color); /*used a different color variable than the one choosen in the example*/
+    text-align: center;
 }
 
 h2 { /*added by me*/
-    border-left: 0.28rem solid var(--primary-color);
-    padding-left: 0.5rem;
+    /*border-left: 0.28rem solid var(--primary-color);
+    padding-left: 0.5rem;*/
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent1-color);
 }
 
 nav, p, section, article {
@@ -57,7 +60,6 @@ h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
-    text-align: center;
     opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff
