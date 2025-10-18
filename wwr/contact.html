@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Down the River</title>
+    <meta name="description"
+        content="Contact Down the River white water rafting company. Find our address, phone number, email address. Use the form to let us reach and help you. See our team!">
+    <meta name="author" content="Samuel Domínguez Lagos">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting-logo.png" alt="Down the River rafting company logo." width="140">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>Down the River - Rafting Company</h1>
+            <p>543 Los Troncos Street</p>
+            <p>Calama, Chile</p>
+            <p>+1 999 999 9999</p>
+            <p>info@downtheriver.com</p>
+        </div>
+
+        <div class="map-and-form">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2856.2950457351353!2d-68.9371762040639!3d-22.487760010113984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1760785214586!5m2!1ses!2scl"
+                width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form>
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Type your name">
+                </div>
+                <div class="form-item">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="Type your email">
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Message<br>Purpose</th>
+                            <td>
+                                <div>
+                                    <input type="radio" id="r1" name="purpose" value="inquiry">
+                                    <label for="r1">General Inquiry</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="r2" name="purpose" value="reservation">
+                                    <label for="r2">Reservation Question</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="r3" name="purpose" value="suggestion">
+                                    <label for="r3">Website Suggestion</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" placeholder="Type here"></textarea>
+                <div>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                </div>
+                <button type="submit">Let Us Contact You!</button>
+            </form>
+        </div>
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="figures">
+                <figure>
+                    <img src="images/employee1.jpg" alt="José: The Flow Master of the group." width="150">
+                    <figcaption>José: Flow Master</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Pedro: Our Trip Leader of the group." width="150">
+                    <figcaption>Pedro: Trip Leader</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Juana: The Lead Guide of the group." width="150">
+                    <figcaption>Juana: Lead Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 | Down the River | Samuel Domínguez Lagos</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook Icon" width="100"> <!--added width to prevent big icons-->
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram Icon" width="100">
+            </a>
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <img src="images/whatsapp.svg" alt="WhatsApp Icon" width="100">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
